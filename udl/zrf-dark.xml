@@ -1,0 +1,70 @@
+<!--//
+SPDX-License-Identifier: ISC
+Copyright (c) 2021, nyantlet.
+
+Support ZRF Syntax Highlighting in Notepad++.
+//-->
+<NotepadPlus>
+    <UserLang name="Zillions Rules File (Dark)" ext="zrf" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2">and else if not or while</Keywords>
+            <Keywords name="Folders in code1, open">(</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">)</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">define include version</Keywords>
+            <Keywords name="Keywords2">absolute-config add add-copy add-copy-partial add-partial allow-flipping animate-captures animate-drops any-owner attribute back board board-setup capture capture-sound captured cascade change-owner change-sound change-type checkmated click-sound count-condition create default description dimensions directions draw-condition draw-sound drop-sound drops dummy engine flip forced from game go grid help history image include-off-pieces kill-positions last-from  last-to links loss-condition loss-sound mark maximal-captures moves move-priorities move-sound move-type music name notation off open opening-sound opponent opposite option pass-partial pass-turn piece pieces-remaining players positions recycle-captures recycle-promotions relative-config release-sound repeat repetition set-attribute set-flag set-position-flag solution stalemated start-rectangle strategy symmetry title to total-piece-count translate turn-order unlink variant verify win-condition win-sound zone</Keywords>
+            <Keywords name="Keywords3">$</Keywords>
+            <Keywords name="Keywords4">adjacent-to-enemy? attacked? defended? empty? enemy? flag? friend? goal-position? in-zone? last-from? last-to? marked? neutral? not-adjacent-to-enemy? not-attacked? not-defended? not-empty? not-enemy? not-flag? not-friend? not-goal-position? not-in-zone? not-last-from? not-last-to? not-marked? not-neutral? not-on-board? not-piece? not-position? not-position-flag? on-board? piece? position? position-flag?</Keywords>
+            <Keywords name="Keywords5">?</Keywords>
+            <Keywords name="Keywords6">false true</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="FFFFFF" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="C0C0C0" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FFFFFF" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF8040" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="80FF80" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF8040" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="80FF80" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF8040" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="80FF80" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="80FF80" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FFFFFF" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FFFF80" bgColor="000000" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
